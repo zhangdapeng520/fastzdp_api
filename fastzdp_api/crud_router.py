@@ -22,7 +22,7 @@ def get_crud_router(
 
     @router.post(f"/{path}", summary=f"新增 {name}")
     async def add_classes(req_data: modelSchema):
-        fasm.add(engine, model(*req_data.model_dump()))
+        fasm.add(engine, model(**req_data.model_dump()))
         return None
 
     @router.put(f"/{path}" + "/{id}", summary=f"更新 {name}")
