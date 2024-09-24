@@ -206,13 +206,13 @@ standard = ["email-validator (>=2.0.0)", "fastapi-cli[standard] (>=0.0.5)", "htt
 
 [[package]]
 name = "fastzdp-sqlmodel"
-version = "0.1.2"
+version = "0.1.3"
 description = "基于SQLModel封装的专用于FastAPI处理MySQL数据库业务的框架"
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "fastzdp_sqlmodel-0.1.2-py3-none-any.whl", hash = "sha256:bc0874ff90e24a875ef79f8fb7709210ee2fbe5e2c0933cfb9d1a12640c3189e"},
-    {file = "fastzdp_sqlmodel-0.1.2.tar.gz", hash = "sha256:74981164f498835cd3224b0bed0610aec96ba5cde52440cff8b3ccc58c9da245"},
+    {file = "fastzdp_sqlmodel-0.1.3-py3-none-any.whl", hash = "sha256:f0753c744cfa3eee62a23e1d2313ecdd6bfbfea5048e14b00ad85fda05db4a85"},
+    {file = "fastzdp_sqlmodel-0.1.3.tar.gz", hash = "sha256:08ea12d05121c365edfacf0deee9473cd4a8cdd053fde34d32aa29692b3b3226"},
 ]
 
 [package.dependencies]
@@ -643,4 +643,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "e8e40dd261d06425a0f42f0013cff5b509b5e64490b276217f9002035abc4b95"
+content-hash = "493eef72cdcfd2b5762eda2cf515e8f6feaa8e61ea11ac299dab38231d523bdf"
