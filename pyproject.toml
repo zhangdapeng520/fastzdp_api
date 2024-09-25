@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fastzdp-api"
-version = "0.1.4"
+version = "0.1.5"
 description = ""
 authors = ["张大鹏 <1156956636@qq.com>"]
 readme = "README.md"

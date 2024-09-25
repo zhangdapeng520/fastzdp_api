@@ -19,3 +19,6 @@ FastAPI的学习笔记，教程，二次开发代码，有详细的中文文档�
 ### v0.1.4
 
 - CRUD 接口新增 get_sum 统计接口
+
+### v0.1.5
+- 增加 add_cors_middleware 方法
